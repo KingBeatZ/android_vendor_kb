@@ -1,4 +1,4 @@
-android_vendor_pac
+android_vendor_kb
 ==================
 
-PAC-man Vendor repository
+KingBeatZ Edition - PAC-man Vendor repository

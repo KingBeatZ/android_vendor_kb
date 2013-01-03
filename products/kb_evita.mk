@@ -17,13 +17,7 @@ $(shell cp -f vendor/kb/overlay/kb/htc/xhdpi/frameworks/base/core/res/assets/ima
 #PRODUCT_COPY_FILES += \
 #    vendor/kb/prebuilt/common/bootlogo/pac_logo_720x1280.rle:root/logo.rle
 
-# include ParanoidAndroid common configuration
-
-PRODUCT_COPY_FILES += \
-  vendor/kb/prebuilt/evita/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
-  vendor/kb/prebuilt/evita/lib/soundfx/libsrsfx.so:system/lib/soundfx/libsrsfx.so \
-  vendor/kb/prebuilt/evita/etc/audio_effects.conf:system/etc/audio_effects.conf \
-  vendor/kb/prebuilt/evita/etc/A1026_CFG.csv:system/etc/A1026_CFG.csv 
+# include ParanoidAndroid common configuration 
 
 include vendor/kb/config/kb_common.mk
 
